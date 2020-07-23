@@ -1,0 +1,83 @@
+Status: PASS
+Time Taken: 5113
+Size: 1801
+Timestamp: Thu Jul 23 11:22:12 IST 2020
+TestStep: LoginReq
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Endpoint: https://login.salesforce.com/services/Soap/c/49.0
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.2 (Java/12.0.1)
+Host : login.salesforce.com
+Accept-Encoding : gzip,deflate
+Content-Length : 347
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:enterprise.soap.sforce.com">
+   <soapenv:Body>
+      <urn:login>
+         <urn:username>Suboohi@IBM.com</urn:username>
+         <urn:password>Shaheen@14027yKL16FSZgltiFZezbCM5cVk5</urn:password>
+      </urn:login>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Cache-Control : no-cache,must-revalidate,max-age=0,no-store,private
+X-B3-SpanId : 9ca45188d311a5ab
+X-B3-Sampled : 0
+X-B3-TraceId : 9ca45188d311a5ab
+Set-Cookie : BrowserId=qFtQYsyoEeqtAEcb1iHVvg; domain=.salesforce.com; path=/; expires=Fri, 23-Jul-2021 05:52:13 GMT; Max-Age=31536000
+Vary : Accept-Encoding
+#status# : HTTP/1.1 200 OK
+Date : Thu, 23 Jul 2020 05:52:13 GMT
+Content-Type : text/xml; charset=utf-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="urn:enterprise.soap.sforce.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <loginResponse>
+         <result>
+            <metadataServerUrl>https://ap16.salesforce.com/services/Soap/m/49.0/00D2w000007uXsX</metadataServerUrl>
+            <passwordExpired>false</passwordExpired>
+            <sandbox>false</sandbox>
+            <serverUrl>https://ap16.salesforce.com/services/Soap/c/49.0/00D2w000007uXsX</serverUrl>
+            <sessionId>00D2w000007uXsX!AQEAQEjTngCl2f_lrW2ClN0_83GsGe8K8xfa3qpz6LbKnmyGr5clpzf4WbqDVgOFJha.EKuMS6fkRZBzVw3l4siTZArzqL.r</sessionId>
+            <userId>0052w0000055cpZAAQ</userId>
+            <userInfo>
+               <accessibilityMode>false</accessibilityMode>
+               <chatterExternal>false</chatterExternal>
+               <currencySymbol>$</currencySymbol>
+               <orgAttachmentFileSizeLimit>26214400</orgAttachmentFileSizeLimit>
+               <orgDefaultCurrencyIsoCode>USD</orgDefaultCurrencyIsoCode>
+               <orgDefaultCurrencyLocale>en_US</orgDefaultCurrencyLocale>
+               <orgDisallowHtmlAttachments>false</orgDisallowHtmlAttachments>
+               <orgHasPersonAccounts>false</orgHasPersonAccounts>
+               <organizationId>00D2w000007uXsXEAU</organizationId>
+               <organizationMultiCurrency>false</organizationMultiCurrency>
+               <organizationName>IBM</organizationName>
+               <profileId>00e2w000002HOUoAAO</profileId>
+               <roleId xsi:nil="true"/>
+               <sessionSecondsValid>7200</sessionSecondsValid>
+               <userDefaultCurrencyIsoCode xsi:nil="true"/>
+               <userEmail>suboohi.shaheen@gmail.com</userEmail>
+               <userFullName>Suboohi Shaheen</userFullName>
+               <userId>0052w0000055cpZAAQ</userId>
+               <userLanguage>en_US</userLanguage>
+               <userLocale>en_US</userLocale>
+               <userName>suboohi@ibm.com</userName>
+               <userTimeZone>America/Los_Angeles</userTimeZone>
+               <userType>Standard</userType>
+               <userUiSkin>Theme3</userUiSkin>
+            </userInfo>
+         </result>
+      </loginResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

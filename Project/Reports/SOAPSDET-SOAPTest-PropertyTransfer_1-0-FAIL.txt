@@ -1,0 +1,19 @@
+Status: FAIL
+Time Taken: 707
+Size: 0
+Timestamp: Thu Jul 23 11:22:17 IST 2020
+TestStep: PropertyTransfer 1
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Missing source property
+
+----------------- Messages ------------------------------
+Performed transfer [sessionId]
+Error performing transfer [test] - Missing source property
+----------------------------------------------------
+sessionId transferred [[00D2w000007uXsX!AQEAQEjTngCl2f_lrW2ClN0_83GsGe8K8xfa3qpz6LbKnmyGr5clpzf4WbqDVgOFJha.EKuMS6fkRZBzVw3l4siTZArzqL.r]] from [LoginReq.Response] to [CreateReq.Request]
+------------ source path -------------
+declare namespace ns1='urn:enterprise.soap.sforce.com';
+//ns1:loginResponse[1]/ns1:result[1]/ns1:sessionId[1]
+------------ target path -------------
+declare namespace urn='urn:enterprise.soap.sforce.com';
+//urn:SessionHeader[1]/urn:sessionId[1]
+test transferred [[Missing source property]] from [LoginReq.null] to [CreateReq.null]

@@ -1,0 +1,68 @@
+Status: PASS
+Time Taken: 514
+Size: 542
+Timestamp: Wed Jul 22 11:11:15 IST 2020
+TestStep: POSTGIT
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Username: Suboohi-git
+Method: POST
+StatusCode: 201
+URL: https://api.github.com/user/keys
+Password: **************
+
+---------------- Request ---------------------------
+Authorization: [Basic U3Vib29oaS1naXQ6U2hhaGVlbkAxNDAy]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/12.0.1)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [433]
+Content-Type: [application/json]
+
+POST https://api.github.com/user/keys HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Basic U3Vib29oaS1naXQ6U2hhaGVlbkAxNDAy
+Content-Length: 433
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/12.0.1)
+
+{
+	"title":"TESTKEY",
+	"key":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7z9or4ObtNda7MLqYW4+SC+8c8M0FA9fUIZfJjQrbaOAJagObniCPpI6gdDhYm8Wz08BnVDmSfHb2cKV4mPpf4awsJWPRJk9YoA+mmyJVebWeMWqkqPbkkxjvImRNYneCsFnNvWI1E4i/A0ZsOLuQBGTlVopAlBZlUMvclOqJ294sv+iGvoNKQvAIZYYid9tMDYIH82luuSLkexZkK+tPzb+cLOtzK008T2ElawTo8NuSxqy2/2eZnd6Zta+A2A4rZF8YwjzSGobL9yp0X2yFwwAoSePy73DmXJwpnewnl9FUxPAyGpey/fNjSxRl+p24AC6tV85oUI7tZc9+Ozpp",
+	"read_only":true
+}
+
+
+---------------- Response --------------------------
+Status: [201 Created]
+Server: [GitHub.com]
+Access-Control-Allow-Origin: [*]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1595399687]
+Date: [Wed, 22 Jul 2020 05:41:16 GMT]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4988]
+Cache-Control: [private, max-age=60, s-maxage=60]
+ETag: ["0dde374cc26a3ce8f5cdc91696d5aafb"]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding]
+X-RateLimit-Limit: [5000]
+#status#: [HTTP/1.1 201 Created]
+Content-Length: [542]
+X-XSS-Protection: [1; mode=block]
+Content-Type: [application/json; charset=utf-8]
+Location: [https://api.github.com/user/keys/44895878]
+X-GitHub-Request-Id: [DD8A:315F:168CDAD:1E681F5:5F17D17B]
+
+{"id":44895878,"key":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7z9or4ObtNda7MLqYW4+SC+8c8M0FA9fUIZfJjQrbaOAJagObniCPpI6gdDhYm8Wz08BnVDmSfHb2cKV4mPpf4awsJWPRJk9YoA+mmyJVebWeMWqkqPbkkxjvImRNYneCsFnNvWI1E4i/A0ZsOLuQBGTlVopAlBZlUMvclOqJ294sv+iGvoNKQvAIZYYid9tMDYIH82luuSLkexZkK+tPzb+cLOtzK008T2ElawTo8NuSxqy2/2eZnd6Zta+A2A4rZF8YwjzSGobL9yp0X2yFwwAoSePy73DmXJwpnewnl9FUxPAyGpey/fNjSxRl+p24AC6tV85oUI7tZc9+Ozpp","url":"https://api.github.com/user/keys/44895878","title":"TESTKEY","verified":true,"created_at":"2020-07-22T05:41:16Z","read_only":false}

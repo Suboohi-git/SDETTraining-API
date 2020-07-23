@@ -1,0 +1,22 @@
+<html xmlns:stringutils="xalan://com.eviware.soapui.support.StringUtils" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SoapUI Test Results: All Failures</title>
+<link title="Style" type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>SoapUI Test Results</h1>
+<hr size="1">
+<h2>All Failures</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time (s)</th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="SoapProjectSDETTraining/1_SoapProjectSDETTraining.SOAPSDET.html">SoapProjectSDETTraining.SOAPSDET</a></td><td><a name="SOAPTest"></a><a href="SoapProjectSDETTraining/1_SoapProjectSDETTraining.SOAPSDET.html#SOAPTest">SOAPTest</a></td><td>Failure</td><td>The test run was cancelled due to a failed test step.<br>
+<br>
+<code><h3><b>PropertyTransfer 1 Failed</b></h3><pre>Performed transfer [sessionId]<br/>Error performing transfer [test] - Missing source property<br/>Status: FAIL<br/>Time Taken: 707<br/>Size: 0<br/>Timestamp: Thu Jul 23 11:22:17 IST 2020<br/>TestStep: PropertyTransfer 1<br/>Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Missing source property<br/><br/>----------------- Messages ------------------------------<br/>Performed transfer [sessionId]<br/>Error performing transfer [test] - Missing source property<br/>----------------------------------------------------<br/>sessionId transferred [[00D2w000007uXsX!AQEAQEjTngCl2f_lrW2ClN0_83GsGe8K8xfa3qpz6LbKnmyGr5clpzf4WbqDVgOFJha.EKuMS6fkRZBzVw3l4siTZArzqL.r]] from [LoginReq.Response] to [CreateReq.Request]<br/>------------ source path -------------<br/>declare namespace ns1=&apos;urn:enterprise.soap.sforce.com&apos;;<br/>//ns1:loginResponse[1]/ns1:result[1]/ns1:sessionId[1]<br/>------------ target path -------------<br/>declare namespace urn=&apos;urn:enterprise.soap.sforce.com&apos;;<br/>//urn:SessionHeader[1]/urn:sessionId[1]<br/>test transferred [[Missing source property]] from [LoginReq.null] to [CreateReq.null]<br/></pre><hr/></code></td><td>5.820</td>
+</tr>
+</table>
+</body>
+</html>

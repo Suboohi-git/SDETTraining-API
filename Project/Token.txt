@@ -1,0 +1,85 @@
+This is for api project
+08ca5f498a9afd1cd59d80d801e17a31f796104d
+
+Salesforce
+
+7yKL16FSZgltiFZezbCM5cVk5
+
+
+<urn:LoginScopeHeader>
+         <urn:organizationId>?</urn:organizationId>
+         <!--Optional:-->
+         <urn:portalId>?</urn:portalId>
+      </urn:LoginScopeHeader>
+
+
+
+<urn:EmailHeader>
+         <urn:triggerAutoResponseEmail>?</urn:triggerAutoResponseEmail>
+         <urn:triggerOtherEmail>?</urn:triggerOtherEmail>
+         <urn:triggerUserEmail>?</urn:triggerUserEmail>
+      </urn:EmailHeader>
+ 
+      <urn:PackageVersionHeader>
+         <!--Zero or more repetitions:-->
+         <urn:packageVersions>
+            <urn:majorNumber>?</urn:majorNumber>
+            <urn:minorNumber>?</urn:minorNumber>
+            <urn:namespace>?</urn:namespace>
+         </urn:packageVersions>
+      </urn:PackageVersionHeader>
+
+      <urn:DebuggingHeader>
+         <!--Zero or more repetitions:-->
+         <urn:categories>
+            <urn:category>?</urn:category>
+            <urn:level>?</urn:level>
+         </urn:categories>
+         <urn:debugLevel>?</urn:debugLevel>
+      </urn:DebuggingHeader>
+
+      <urn:LocaleOptions>
+         <!--Optional:-->
+         <urn:language>?</urn:language>
+         <!--Optional:-->
+         <urn:localizeErrors>?</urn:localizeErrors>
+      </urn:LocaleOptions>
+
+      <urn:DuplicateRuleHeader>
+         <urn:allowSave>?</urn:allowSave>
+         <urn:includeRecordDetails>?</urn:includeRecordDetails>
+         <urn:runAsCurrentUser>?</urn:runAsCurrentUser>
+      </urn:DuplicateRuleHeader>
+      <urn:AllOrNoneHeader>
+         <urn:allOrNone>?</urn:allOrNone>
+      </urn:AllOrNoneHeader>
+
+      <urn:StreamingEnabledHeader>
+         <urn:streamingEnabled>?</urn:streamingEnabled>
+      </urn:StreamingEnabledHeader>
+      <urn:DisableFeedTrackingHeader>
+         <urn:disableFeedTracking>?</urn:disableFeedTracking>
+      </urn:DisableFeedTrackingHeader>
+      <urn:AllowFieldTruncationHeader>
+         <urn:allowFieldTruncation>?</urn:allowFieldTruncation>
+      </urn:AllowFieldTruncationHeader>
+ 
+      <urn:MruHeader>
+         <urn:updateMru>?</urn:updateMru>
+      </urn:MruHeader>
+      <urn:AssignmentRuleHeader>
+         <urn:assignmentRuleId>?</urn:assignmentRuleId>
+         <urn:useDefaultRule>?</urn:useDefaultRule>
+      </urn:AssignmentRuleHeader>
+
+
+
+<urn1:fieldsToNull>?</urn1:fieldsToNull>
+            <urn1:Id>?</urn1:Id>
+
+
+ <urn:sObjects xsi:type="urn1:Account" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<Name>Sample SOAP Account</Name>
+<Industry>Agriculture</Industry>
+<Type>Prospect</Type>
